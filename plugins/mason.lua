@@ -1,7 +1,7 @@
 return {
   "williamboman/mason-lspconfig.nvim",
   opts = {
-    ensure_installed = { "sqlls", "yamlls", "pyright"}, -- automatically install lsp
+    ensure_installed = { "sqlls", "yamlls", "pyright", "pylint"}, -- automatically install lsp
 
   },
 }
